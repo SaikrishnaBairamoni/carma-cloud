@@ -61,5 +61,5 @@ jobs:
         external_repository: SaikrishnaBairamoni/StolDocumentation
         publish_branch: gh-pages
         # default: gh-pages
-        publish_dir: ./docs/html
+        publish_dir: ./docs/html/
         destination_dir: ${{ github.event.repository.name }}
