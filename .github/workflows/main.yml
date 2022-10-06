@@ -50,7 +50,7 @@ jobs:
         working-directory: "." # default is .
         enable-latex: true
     - name: Copy pdf to html dir
-      run: cp ./latex/refman.pdf ./html/carma-cloud.pdf 
+      run: cp ./docs/latex/refman.pdf ./html/carma-cloud.pdf 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
