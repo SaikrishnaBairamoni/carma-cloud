@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package cc.rsm;
-
+package cc.rsm;
 import cc.ctrl.TrafCtrl;
 import cc.ctrl.TrafCtrlEnums;
 import cc.ctrl.proc.ProcClosed;
